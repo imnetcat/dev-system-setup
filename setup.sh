@@ -35,6 +35,13 @@ yay -S slack-desktop --noconfirm
 # Import wallpapers
 git clone https://github.com/imnetcat/wallpapers
 
+# Enable tilling KDE mode
+git clone https://github.com/faho/kwin-tiling.git
+cd kwin-tiling
+plasmapkg2 --type kwinscript -i .
+kcmshell5 kwinscripts
+cd ~
+
 # Import configs
 dconf load / < ../appearance/dconf
 mkdir ~/.config/terminator
