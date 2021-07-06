@@ -24,6 +24,8 @@ sudo git clone https://aur.archlinux.org/yay.git
 sudo chown -R  imnetcat:users yay
 cd yay
 makepkg -si --noconfirm
+cd ~
+yay -Syy
 
 # Massengers: telegram, slack
 sudo pacman -S telegram-desktop --noconfirm
