@@ -32,6 +32,9 @@ sudo pacman -S telegram-desktop --noconfirm
 yay -Syy
 yay -S slack-desktop --noconfirm
 
+# Import wallpapers
+git clone https://github.com/imnetcat/wallpapers
+
 # Import configs
 dconf load / < ../appearance/dconf
 mkdir ~/.config/terminator
