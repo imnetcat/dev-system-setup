@@ -21,7 +21,7 @@ sudo pacman -S virtualbox --noconfirm
 
 # AUR package manager: yay
 sudo git clone https://aur.archlinux.org/yay.git
-sudo chown -R  cloudcone:users yay
+sudo chown -R  imnetcat:users yay
 cd yay
 makepkg -si
 
