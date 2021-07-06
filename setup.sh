@@ -27,6 +27,7 @@ makepkg -si --noconfirm
 
 # Massengers: telegram, slack
 sudo pacman -S telegram-desktop --noconfirm
+yay -Syy
 yay -S slack-desktop --noconfirm
 
 # Import configs
