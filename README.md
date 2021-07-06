@@ -8,7 +8,7 @@ My dev system setup and appearance for arch-based OS
 ### Install
 
 ```
-sudo pacman -Syu git --noconfirm
+sudo pacman -Syyu git --noconfirm
 cd ~
 git clone https://github.com/imnetcat/dev-system-setup
 cd dev-system-setup
