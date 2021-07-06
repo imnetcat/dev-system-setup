@@ -23,7 +23,7 @@ sudo pacman -S virtualbox --noconfirm
 sudo git clone https://aur.archlinux.org/yay.git
 sudo chown -R  imnetcat:users yay
 cd yay
-makepkg -si
+makepkg -si --noconfirm
 
 # Massengers: telegram, slack
 sudo pacman -S telegram-desktop --noconfirm
