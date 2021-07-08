@@ -33,9 +33,8 @@ makepkg -si --noconfirm
 cd ~
 yay -Syy
 
-# Massengers: telegram, slack
-sudo pacman -S telegram-desktop --noconfirm
-yay -Syy
+# Massengers: telegram, discord
+sudo pacman -S telegram-desktop discord --noconfirm
 
 # Import wallpapers
 git clone https://github.com/imnetcat/wallpapers
