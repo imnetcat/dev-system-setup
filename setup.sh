@@ -2,7 +2,13 @@
 sudo pacman -Syyu --noconfirm
 
 # Utils
-sudo pacman -S curl git base-devel --noconfirm
+sudo pacman -S \
+  curl \
+  git \
+  base-devel \
+  neofetch \
+  htop \
+  --noconfirm
 
 # Nodejs & npm
 sudo pacman -S nodejs npm --noconfirm
