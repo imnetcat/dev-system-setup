@@ -15,5 +15,6 @@ cd ~ && \
 git clone https://github.com/imnetcat/dev-system-setup && \
 cd dev-system-setup && \
 chmod +x setup.sh && \
+chmod +x appearance.sh && \
 ./setup.sh
 ```
