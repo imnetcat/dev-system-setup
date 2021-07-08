@@ -17,7 +17,7 @@ sudo pacman -S nodejs npm --noconfirm
 sudo pacman -S terminator --noconfirm
 
 # Text editor: NeoVim, Visual Studio Code
-sudo pacman -S nvim code --noconfirm
+sudo pacman -S neovim code --noconfirm
 
 # Docker
 sudo pacman -S docker --noconfirm
