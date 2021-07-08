@@ -30,13 +30,6 @@ makepkg -si --noconfirm
 cd ~
 yay -Syy
 
-# Nodejs 14 & npm 7
-yay -S nvm
-echo 'source /usr/share/nvm/init-nvm.sh' >> ~/.bashrc
-exec $SHELL
-nvm install 14
-npm i -g npm@7
-
 # Massengers: telegram, discord
 sudo pacman -S telegram-desktop discord --noconfirm
 
@@ -49,6 +42,13 @@ cd kwin-tiling
 plasmapkg2 --type kwinscript -i .
 kcmshell5 kwinscripts
 cd ~
+
+# Nodejs 14 & npm 7
+yay -S nvm --noconfirm
+echo 'source /usr/share/nvm/init-nvm.sh' >> ~/.bashrc
+exec $SHELL
+nvm install 14
+npm i -g npm@7
 
 # Import configs
 dconf load / < ../appearance/dconf
