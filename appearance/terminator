@@ -65,7 +65,7 @@
       order = 0
       profile = default
       uuid = b5897481-d35a-4a7b-a74f-c59dbc7d7f53
-      command = /etc/appearance/btcprice.sh
+      command = ~/btcprice.sh
     [[[child5]]]
       type = VPaned
       parent = child3
