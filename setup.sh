@@ -16,6 +16,10 @@ sudo pacman -S terminator --noconfirm
 # Text editor: NeoVim, Visual Studio Code
 sudo pacman -S neovim code --noconfirm
 
+# Vim-Plug - plagin manager
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+
 # Docker
 sudo pacman -S docker --noconfirm
 
