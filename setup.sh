@@ -36,16 +36,16 @@ sudo pacman -S telegram-desktop discord --noconfirm
 # Import wallpapers
 git clone https://github.com/imnetcat/wallpapers
 
-# Enable tilling KDE mode
-git clone https://github.com/faho/kwin-tiling.git
-cd kwin-tiling
-plasmapkg2 --type kwinscript -i .
-kcmshell5 kwinscripts
-cd ~
-
 # Nodejs 14 & npm 7
 yay -S nvm --noconfirm
 echo 'source /usr/share/nvm/init-nvm.sh' >> ~/.bashrc
 exec $SHELL
 nvm install 14
 npm i -g npm@7
+
+# Enable tilling KDE mode
+git clone https://github.com/faho/kwin-tiling.git
+cd kwin-tiling
+plasmapkg2 --type kwinscript -i .
+kcmshell5 kwinscripts
+cd ~
