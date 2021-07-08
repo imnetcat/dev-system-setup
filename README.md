@@ -7,6 +7,8 @@ My dev system setup and appearance for arch-based OS
 
 ### Install
 
+_Just copy and paste the text above into the terminal_
+
 ```
 sudo pacman -Syyu git --noconfirm && \
 cd ~ && \
