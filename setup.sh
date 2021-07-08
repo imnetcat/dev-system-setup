@@ -51,8 +51,8 @@ nvm install 14
 npm i -g npm@7
 
 # Import configs
-dconf load / < ../appearance/dconf
+dconf load / < ~/dev-system-setup/appearance/dconf
 mkdir ~/.config/terminator
-cp ../appearance/terminator ~/.config/terminator/config
-cp ../appearance/btcprice.sh ~
+cp ~/dev-system-setup/appearance/terminator ~/.config/terminator/config
+cp ~/dev-system-setup/appearance/btcprice.sh ~
 chmod +x ~/btcprice.sh
