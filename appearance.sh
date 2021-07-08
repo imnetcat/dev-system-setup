@@ -10,4 +10,4 @@ chmod +x ~/btcprice.sh
 
 # Import nvim config
 mkdir ~/.config/nvim
-cp ~/dev-system-setup/appearance/init.vim /.config/nvim/init.vim
+cp ~/dev-system-setup/appearance/init.vim ~/.config/nvim/init.vim
