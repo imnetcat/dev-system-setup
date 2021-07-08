@@ -13,8 +13,8 @@ _Just copy and paste the text above into the terminal_
 sudo pacman -Syyu git --noconfirm && \
 cd ~ && \
 git clone https://github.com/imnetcat/dev-system-setup && \
-cd dev-system-setup && \
-chmod +x setup.sh && \
-chmod +x appearance.sh && \
-./setup.sh
+chmod +x ./dev-system-setup/setup.sh && \
+chmod +x ./dev-system-setup/appearance.sh && \
+./dev-system-setup/setup.sh && \
+./dev-system-setup/appearance.sh
 ```
