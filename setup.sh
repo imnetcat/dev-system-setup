@@ -36,7 +36,6 @@ yay -Syy
 # Massengers: telegram, slack
 sudo pacman -S telegram-desktop --noconfirm
 yay -Syy
-yay -S slack-desktop --noconfirm
 
 # Import wallpapers
 git clone https://github.com/imnetcat/wallpapers
