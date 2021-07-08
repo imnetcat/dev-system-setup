@@ -10,9 +10,6 @@ sudo pacman -S \
   htop \
   --noconfirm
 
-# Nodejs & npm
-sudo pacman -S nodejs npm --noconfirm
-
 # Terminator terminal emulator
 sudo pacman -S terminator --noconfirm
 
@@ -32,6 +29,13 @@ cd yay
 makepkg -si --noconfirm
 cd ~
 yay -Syy
+
+# Nodejs 14 & npm 7
+yay -S nvm
+echo 'source /usr/share/nvm/init-nvm.sh' >> ~/.bashrc
+exec $SHELL
+nvm install 14
+npm i -g npm@7
 
 # Massengers: telegram, discord
 sudo pacman -S telegram-desktop discord --noconfirm
