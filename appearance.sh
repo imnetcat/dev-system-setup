@@ -18,4 +18,15 @@ nvim +PlugInstall +qall
 # Add aliases
 echo "alias v='nvim'" > ~/.bash_aliases
 echo "alias vim='nvim'" >> ~/.bash_aliases
+
+# Enable aliases
 source ~/.bash_aliases
+
+# Enable residence aliases
+echo "if [ -f ~/.bash_aliases ]; then
+. ~/.bash_aliases
+fi" >> ~/.bashrc
+
+# Make nvim default text editor
+echo "export EDITOR=\"nvim\"" >> ~/.bashrc
+
