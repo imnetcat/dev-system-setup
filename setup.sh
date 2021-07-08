@@ -51,3 +51,4 @@ dconf load / < ../appearance/dconf
 mkdir ~/.config/terminator
 cp ../appearance/terminator ~/.config/terminator/config
 cp ../appearance/btcprice.sh ~
+chmod +x ~/btcprice.sh
