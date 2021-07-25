@@ -34,8 +34,14 @@ makepkg -si --noconfirm
 cd ~
 yay -Syy
 
-# Massengers: telegram, discord
+# Messengers: telegram, discord
 sudo pacman -S telegram-desktop discord --noconfirm
+
+# PostgreSQL
+sudo pacman -S postgresql --noconfirm
+sudo -u postgres initdb --locale=en_US.UTF-8 -E UTF8 -D /var/lib/postgres/data
+sudo systemctl enable postgresql.service
+sudo systemctl start postgresql.service
 
 # Import wallpapers
 git clone https://github.com/imnetcat/wallpapers
