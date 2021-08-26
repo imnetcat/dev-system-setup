@@ -22,6 +22,8 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 
 # Docker
 sudo pacman -S docker --noconfirm
+# Make docker usable without sudo
+sudo usermod -a -G docker $USER
 
 # VirtualBox for WM
 sudo pacman -S virtualbox --noconfirm
